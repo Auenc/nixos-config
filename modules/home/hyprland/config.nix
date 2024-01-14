@@ -9,8 +9,7 @@ in
       $mainMod = SUPER
 
       monitor=,preferred,auto,auto
-      monitor=,1920x1200,auto,auto
-
+      
       # autostart
       exec-once = systemctl --user import-environment &
       exec-once = hash dbus-update-activation-environment 2>/dev/null &
@@ -24,7 +23,7 @@ in
       exec-once = mako &
 
       input {
-        kb_layout = us
+        kb_layout = gb
         numlock_by_default = true
         follow_mouse = 1
         sensitivity = 0

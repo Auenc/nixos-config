@@ -2,7 +2,8 @@
 {
   services.xserver = {
     enable = true;
-    layout = "us";
+    layout = "gb";
+    exportConfiguration = true;
     displayManager.autoLogin = {
       enable = true;
       user = "${username}";
