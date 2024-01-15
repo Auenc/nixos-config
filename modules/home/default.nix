@@ -25,4 +25,5 @@
     ++ [(import ./starship)]
     ++ [(import ./nvim)]
     ++ [(import ./package)];
+#    ++ [(import ./obs)]; # obs
 }

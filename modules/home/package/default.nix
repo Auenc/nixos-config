@@ -47,5 +47,11 @@
     wget
     xdg-utils
     inputs.alejandra.defaultPackage.${system}
+    obs-studio
+
+    # Node
+    nodejs_18
+    # Terraform
+    terraform
   ]);
 }

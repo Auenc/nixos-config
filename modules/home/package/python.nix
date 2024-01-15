@@ -2,6 +2,7 @@
 {
   environment.systemPackages = with pkgs; [
     (python311Full.withPackages(ps: with ps; [ 
+      pip
       requests
       pygame
       shapely
@@ -13,6 +14,7 @@
       requests
       # sendgrid
       # tabulate
+      spleeter
     ]))
   ];
 }

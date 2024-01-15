@@ -13,6 +13,7 @@
         # youtube-time-tracker
         firefox-color
         stylus
+        reddit-enhancement-suite
       ];
       extraConfig = builtins.readFile ./user.js;
     };

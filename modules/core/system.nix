@@ -24,10 +24,16 @@
   environment.systemPackages = with pkgs; [
     wget
     git
+    blueberry
+    xwaylandvideobridge
   ];
 
   time.timeZone = "Europe/London";
   i18n.defaultLocale = "en_GB.UTF-8";
   nixpkgs.config.allowUnfree = true;
   system.stateVersion = "23.05";
+
+  # Enable bluetooth
+  hardware.bluetooth.enable = true;
+  hardware.bluetooth.powerOnBoot = true;
 }
